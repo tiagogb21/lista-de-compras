@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 0.625rem;
+}
+
+.title {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.paragraph {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+.link {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+}
+
+button {
+    background-color: inherit;
+    border: none;
+    color: #fff;
+    border-radius: 1.2rem;
+    cursor: pointer;
+}

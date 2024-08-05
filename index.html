@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./styles/index.css" />
+    </head>
+    <body>
+        <main>
+            <a href="/" class="logo-container">
+                <img
+                    class="logo"
+                    src="./assets/images/logo.png"
+                    alt="quicklist logo"
+                />
+            </a>
+            <div class="title-container">
+                <h1 class="title">Compras da semana</h1>
+            </div>
+            <form action="">
+                <div class="search-container">
+                    <input
+                        id="ipt-search"
+                        type="text"
+                        placeholder="Adicione um novo item"
+                        class="label"
+                    />
+                    <button id="btn-search" type="button" class="link">
+                        Adicionar item
+                    </button>
+                </div>
+                <ul class="list-container" id="list-container"></ul>
+            </form>
+        </main>
+        <script src="./script/index.js"></script>
+    </body>
+</html>
